@@ -347,8 +347,6 @@ def chart_per_curiamss(df, model_name, accuracy_type=None):
     plt.yticks(size=14)
     plt.show()
 
-CX = vec.transform(curiam_new_df.text)
-
 
 
 def predict_per_curiam_text(curiam_df, curiam_transformed_data, model, model_name, justice_names, justices_map):

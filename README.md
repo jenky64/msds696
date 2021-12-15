@@ -1,6 +1,6 @@
-# msds696 Practicum 
-## Per Curiam Authorship detection
-The purpose of this practicum is to investigate whether or not progress can be made in determining the authorship of the unsigned United States Supreme Court Per Curiam decisions. The practicum uses a number of classification models and cosine similarity to achieve this. The classification models include LinearSVC, RandomForest, GradientBoosting, MutlinomialNB, and LinearDiscriminantAnalysis. The following items are discussed:
+# msds696 Practicum - Per Curiam Authorship detection
+### Practicum Overview
+There are four types of United States Supreme Court Decisions: Opinion Of The Court, Concurrences, Dissents, and Per Curiams. The author of the first three types is indicated in the written decision. Per Curiam decisions are unauthored, so it is unknown who wrote them. The purpose of this practicum is to investigate whether or not, by using Natural Language Processing and Machine Learning, progress can be made in determining the authorship of these unsigned United States Supreme Court Per Curiam decisions. The practicum uses a number of classification models and cosine similarity to achieve this. The classification models include LinearSVC, RandomForest, GradientBoosting, MutlinomialNB, and LinearDiscriminantAnalysis. The following items are discussed:
 1. project data and data source
 2. project directory structure layout and description
 3. creating the conda environment
